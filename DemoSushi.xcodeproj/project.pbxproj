@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6637E112250615AA00BF90E6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E111250615AA00BF90E6 /* Tests_iOS.swift */; };
+		6637E11D250615AA00BF90E6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E11C250615AA00BF90E6 /* Tests_macOS.swift */; };
+		6637E11F250615AA00BF90E6 /* DemoSushiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */; };
+		6637E120250615AA00BF90E6 /* DemoSushiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */; };
+		6637E121250615AA00BF90E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F7250615A800BF90E6 /* ContentView.swift */; };
+		6637E122250615AA00BF90E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F7250615A800BF90E6 /* ContentView.swift */; };
+		6637E123250615AA00BF90E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6637E0F8250615AA00BF90E6 /* Assets.xcassets */; };
+		6637E124250615AA00BF90E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6637E0F8250615AA00BF90E6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6637E10E250615AA00BF90E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6637E0F1250615A800BF90E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6637E0FC250615AA00BF90E6;
+			remoteInfo = "DemoSushi (iOS)";
+		};
+		6637E119250615AA00BF90E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6637E0F1250615A800BF90E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6637E104250615AA00BF90E6;
+			remoteInfo = "DemoSushi (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSushiApp.swift; sourceTree = "<group>"; };
+		6637E0F7250615A800BF90E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6637E0F8250615AA00BF90E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6637E0FD250615AA00BF90E6 /* DemoSushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6637E100250615AA00BF90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6637E105250615AA00BF90E6 /* DemoSushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6637E107250615AA00BF90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6637E108250615AA00BF90E6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6637E10D250615AA00BF90E6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6637E111250615AA00BF90E6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		6637E113250615AA00BF90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6637E118250615AA00BF90E6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6637E11C250615AA00BF90E6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		6637E11E250615AA00BF90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6637E0FA250615AA00BF90E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E102250615AA00BF90E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E10A250615AA00BF90E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E115250615AA00BF90E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6637E0F0250615A800BF90E6 = {
+			isa = PBXGroup;
+			children = (
+				6637E0F5250615A800BF90E6 /* Shared */,
+				6637E0FF250615AA00BF90E6 /* iOS */,
+				6637E106250615AA00BF90E6 /* macOS */,
+				6637E110250615AA00BF90E6 /* Tests iOS */,
+				6637E11B250615AA00BF90E6 /* Tests macOS */,
+				6637E0FE250615AA00BF90E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6637E0F5250615A800BF90E6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */,
+				6637E0F7250615A800BF90E6 /* ContentView.swift */,
+				6637E0F8250615AA00BF90E6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6637E0FE250615AA00BF90E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6637E0FD250615AA00BF90E6 /* DemoSushi.app */,
+				6637E105250615AA00BF90E6 /* DemoSushi.app */,
+				6637E10D250615AA00BF90E6 /* Tests iOS.xctest */,
+				6637E118250615AA00BF90E6 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6637E0FF250615AA00BF90E6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6637E100250615AA00BF90E6 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6637E106250615AA00BF90E6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6637E107250615AA00BF90E6 /* Info.plist */,
+				6637E108250615AA00BF90E6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6637E110250615AA00BF90E6 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6637E111250615AA00BF90E6 /* Tests_iOS.swift */,
+				6637E113250615AA00BF90E6 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		6637E11B250615AA00BF90E6 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6637E11C250615AA00BF90E6 /* Tests_macOS.swift */,
+				6637E11E250615AA00BF90E6 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6637E0FC250615AA00BF90E6 /* DemoSushi (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6637E127250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "DemoSushi (iOS)" */;
+			buildPhases = (
+				6637E0F9250615AA00BF90E6 /* Sources */,
+				6637E0FA250615AA00BF90E6 /* Frameworks */,
+				6637E0FB250615AA00BF90E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoSushi (iOS)";
+			productName = "DemoSushi (iOS)";
+			productReference = 6637E0FD250615AA00BF90E6 /* DemoSushi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6637E104250615AA00BF90E6 /* DemoSushi (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6637E12A250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "DemoSushi (macOS)" */;
+			buildPhases = (
+				6637E101250615AA00BF90E6 /* Sources */,
+				6637E102250615AA00BF90E6 /* Frameworks */,
+				6637E103250615AA00BF90E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoSushi (macOS)";
+			productName = "DemoSushi (macOS)";
+			productReference = 6637E105250615AA00BF90E6 /* DemoSushi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6637E10C250615AA00BF90E6 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6637E12D250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				6637E109250615AA00BF90E6 /* Sources */,
+				6637E10A250615AA00BF90E6 /* Frameworks */,
+				6637E10B250615AA00BF90E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6637E10F250615AA00BF90E6 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 6637E10D250615AA00BF90E6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6637E117250615AA00BF90E6 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6637E130250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				6637E114250615AA00BF90E6 /* Sources */,
+				6637E115250615AA00BF90E6 /* Frameworks */,
+				6637E116250615AA00BF90E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6637E11A250615AA00BF90E6 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 6637E118250615AA00BF90E6 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6637E0F1250615A800BF90E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6637E0FC250615AA00BF90E6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6637E104250615AA00BF90E6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6637E10C250615AA00BF90E6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6637E0FC250615AA00BF90E6;
+					};
+					6637E117250615AA00BF90E6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6637E104250615AA00BF90E6;
+					};
+				};
+			};
+			buildConfigurationList = 6637E0F4250615A800BF90E6 /* Build configuration list for PBXProject "DemoSushi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6637E0F0250615A800BF90E6;
+			productRefGroup = 6637E0FE250615AA00BF90E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6637E0FC250615AA00BF90E6 /* DemoSushi (iOS) */,
+				6637E104250615AA00BF90E6 /* DemoSushi (macOS) */,
+				6637E10C250615AA00BF90E6 /* Tests iOS */,
+				6637E117250615AA00BF90E6 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6637E0FB250615AA00BF90E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637E123250615AA00BF90E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E103250615AA00BF90E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637E124250615AA00BF90E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E10B250615AA00BF90E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E116250615AA00BF90E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6637E0F9250615AA00BF90E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637E121250615AA00BF90E6 /* ContentView.swift in Sources */,
+				6637E11F250615AA00BF90E6 /* DemoSushiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E101250615AA00BF90E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637E122250615AA00BF90E6 /* ContentView.swift in Sources */,
+				6637E120250615AA00BF90E6 /* DemoSushiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E109250615AA00BF90E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637E112250615AA00BF90E6 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6637E114250615AA00BF90E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637E11D250615AA00BF90E6 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6637E10F250615AA00BF90E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6637E0FC250615AA00BF90E6 /* DemoSushi (iOS) */;
+			targetProxy = 6637E10E250615AA00BF90E6 /* PBXContainerItemProxy */;
+		};
+		6637E11A250615AA00BF90E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6637E104250615AA00BF90E6 /* DemoSushi (macOS) */;
+			targetProxy = 6637E119250615AA00BF90E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6637E125250615AA00BF90E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6637E126250615AA00BF90E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6637E128250615AA00BF90E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsflyer.wakana.DemoSushi;
+				PRODUCT_NAME = DemoSushi;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6637E129250615AA00BF90E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsflyer.wakana.DemoSushi;
+				PRODUCT_NAME = DemoSushi;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6637E12B250615AA00BF90E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsflyer.wakana.DemoSushi;
+				PRODUCT_NAME = DemoSushi;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6637E12C250615AA00BF90E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsflyer.wakana.DemoSushi;
+				PRODUCT_NAME = DemoSushi;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6637E12E250615AA00BF90E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsflyer.wakana.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DemoSushi (iOS)";
+			};
+			name = Debug;
+		};
+		6637E12F250615AA00BF90E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsflyer.wakana.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DemoSushi (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6637E131250615AA00BF90E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsflyer.wakana.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DemoSushi (macOS)";
+			};
+			name = Debug;
+		};
+		6637E132250615AA00BF90E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UKH7UQ3CF;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsflyer.wakana.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DemoSushi (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6637E0F4250615A800BF90E6 /* Build configuration list for PBXProject "DemoSushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637E125250615AA00BF90E6 /* Debug */,
+				6637E126250615AA00BF90E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6637E127250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "DemoSushi (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637E128250615AA00BF90E6 /* Debug */,
+				6637E129250615AA00BF90E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6637E12A250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "DemoSushi (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637E12B250615AA00BF90E6 /* Debug */,
+				6637E12C250615AA00BF90E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6637E12D250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637E12E250615AA00BF90E6 /* Debug */,
+				6637E12F250615AA00BF90E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6637E130250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6637E131250615AA00BF90E6 /* Debug */,
+				6637E132250615AA00BF90E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6637E0F1250615A800BF90E6 /* Project object */;
+}
