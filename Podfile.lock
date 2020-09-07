@@ -1,0 +1,16 @@
+PODS:
+  - Beta-AppsFlyerFramework (6.0.2.174)
+
+DEPENDENCIES:
+  - Beta-AppsFlyerFramework
+
+SPEC REPOS:
+  trunk:
+    - Beta-AppsFlyerFramework
+
+SPEC CHECKSUMS:
+  Beta-AppsFlyerFramework: a7a8e24349fdf60d1ad16cf8085c63b4d239d342
+
+PODFILE CHECKSUM: 80da41f01bf479a236cee58e6885b205a47a746e
+
+COCOAPODS: 1.9.3

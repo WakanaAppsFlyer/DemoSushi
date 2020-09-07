@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62D6693CF9FE0DA8DDFDD1CC /* Pods_DemoSushi__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3088EEAD9F6E7613C648920 /* Pods_DemoSushi__iOS_.framework */; };
 		6637E112250615AA00BF90E6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E111250615AA00BF90E6 /* Tests_iOS.swift */; };
 		6637E11D250615AA00BF90E6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E11C250615AA00BF90E6 /* Tests_macOS.swift */; };
 		6637E11F250615AA00BF90E6 /* DemoSushiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61D05F14241EB96EE51A9A9D /* Pods-DemoSushi (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSushi (iOS).release.xcconfig"; path = "Target Support Files/Pods-DemoSushi (iOS)/Pods-DemoSushi (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSushiApp.swift; sourceTree = "<group>"; };
 		6637E0F7250615A800BF90E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6637E0F8250615AA00BF90E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		6637E118250615AA00BF90E6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6637E11C250615AA00BF90E6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6637E11E250615AA00BF90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F3C8297D870FC15EB4541C /* Pods-DemoSushi (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSushi (iOS).debug.xcconfig"; path = "Target Support Files/Pods-DemoSushi (iOS)/Pods-DemoSushi (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F3088EEAD9F6E7613C648920 /* Pods_DemoSushi__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSushi__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D6693CF9FE0DA8DDFDD1CC /* Pods_DemoSushi__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64D7E33031294E166323B233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F3C8297D870FC15EB4541C /* Pods-DemoSushi (iOS).debug.xcconfig */,
+				61D05F14241EB96EE51A9A9D /* Pods-DemoSushi (iOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6637E0F0250615A800BF90E6 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +107,8 @@
 				6637E110250615AA00BF90E6 /* Tests iOS */,
 				6637E11B250615AA00BF90E6 /* Tests macOS */,
 				6637E0FE250615AA00BF90E6 /* Products */,
+				64D7E33031294E166323B233 /* Pods */,
+				BD57C2126AB80EF4E80175E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +168,14 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		BD57C2126AB80EF4E80175E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3088EEAD9F6E7613C648920 /* Pods_DemoSushi__iOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6637E127250615AA00BF90E6 /* Build configuration list for PBXNativeTarget "DemoSushi (iOS)" */;
 			buildPhases = (
+				6B0EDF6C3FC89637B3FF7436 /* [CP] Check Pods Manifest.lock */,
 				6637E0F9250615AA00BF90E6 /* Sources */,
 				6637E0FA250615AA00BF90E6 /* Frameworks */,
 				6637E0FB250615AA00BF90E6 /* Resources */,
@@ -302,6 +328,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B0EDF6C3FC89637B3FF7436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoSushi (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6637E0F9250615AA00BF90E6 /* Sources */ = {
@@ -467,6 +518,7 @@
 		};
 		6637E128250615AA00BF90E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F3C8297D870FC15EB4541C /* Pods-DemoSushi (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +541,7 @@
 		};
 		6637E129250615AA00BF90E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D05F14241EB96EE51A9A9D /* Pods-DemoSushi (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
