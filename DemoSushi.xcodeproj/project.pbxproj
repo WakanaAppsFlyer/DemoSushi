@@ -12,10 +12,12 @@
 		6637E11D250615AA00BF90E6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E11C250615AA00BF90E6 /* Tests_macOS.swift */; };
 		6637E11F250615AA00BF90E6 /* DemoSushiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */; };
 		6637E120250615AA00BF90E6 /* DemoSushiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */; };
-		6637E121250615AA00BF90E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F7250615A800BF90E6 /* ContentView.swift */; };
-		6637E122250615AA00BF90E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637E0F7250615A800BF90E6 /* ContentView.swift */; };
 		6637E123250615AA00BF90E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6637E0F8250615AA00BF90E6 /* Assets.xcassets */; };
 		6637E124250615AA00BF90E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6637E0F8250615AA00BF90E6 /* Assets.xcassets */; };
+		66EDDCE7250A04970028B0ED /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EDDCE6250A04970028B0ED /* TopView.swift */; };
+		66EDDCE8250A04970028B0ED /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EDDCE6250A04970028B0ED /* TopView.swift */; };
+		66EDDCEA250A05CD0028B0ED /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EDDCE9250A05CD0028B0ED /* ListView.swift */; };
+		66EDDCEB250A05CD0028B0ED /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EDDCE9250A05CD0028B0ED /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		61D05F14241EB96EE51A9A9D /* Pods-DemoSushi (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSushi (iOS).release.xcconfig"; path = "Target Support Files/Pods-DemoSushi (iOS)/Pods-DemoSushi (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSushiApp.swift; sourceTree = "<group>"; };
-		6637E0F7250615A800BF90E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6637E0F8250615AA00BF90E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6637E0FD250615AA00BF90E6 /* DemoSushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6637E100250615AA00BF90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,8 @@
 		6637E118250615AA00BF90E6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6637E11C250615AA00BF90E6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6637E11E250615AA00BF90E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EDDCE6250A04970028B0ED /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		66EDDCE9250A05CD0028B0ED /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		94F3C8297D870FC15EB4541C /* Pods-DemoSushi (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSushi (iOS).debug.xcconfig"; path = "Target Support Files/Pods-DemoSushi (iOS)/Pods-DemoSushi (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		F3088EEAD9F6E7613C648920 /* Pods_DemoSushi__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSushi__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,7 +97,6 @@
 				94F3C8297D870FC15EB4541C /* Pods-DemoSushi (iOS).debug.xcconfig */,
 				61D05F14241EB96EE51A9A9D /* Pods-DemoSushi (iOS).release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,7 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				6637E0F6250615A800BF90E6 /* DemoSushiApp.swift */,
-				6637E0F7250615A800BF90E6 /* ContentView.swift */,
+				66EDDCE6250A04970028B0ED /* TopView.swift */,
+				66EDDCE9250A05CD0028B0ED /* ListView.swift */,
 				6637E0F8250615AA00BF90E6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -359,8 +362,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6637E121250615AA00BF90E6 /* ContentView.swift in Sources */,
+				66EDDCE7250A04970028B0ED /* TopView.swift in Sources */,
 				6637E11F250615AA00BF90E6 /* DemoSushiApp.swift in Sources */,
+				66EDDCEA250A05CD0028B0ED /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6637E122250615AA00BF90E6 /* ContentView.swift in Sources */,
+				66EDDCE8250A04970028B0ED /* TopView.swift in Sources */,
 				6637E120250615AA00BF90E6 /* DemoSushiApp.swift in Sources */,
+				66EDDCEB250A05CD0028B0ED /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
